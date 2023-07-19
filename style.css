@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {scroll-behavior: smooth;
+	box-sizing: border-box;
+	
+    }
+
+	#uno{width: 100%; height: 100%;  margin: 0px;text-align: center; scroll-snap-align: start; }
+	#dos{width: 100%;   margin-top: 80px; text-align: center; scroll-snap-align: start;}
+	#tres{width: 100%;	 margin-top: 80px;  text-align: center; scroll-snap-align: start;}
+	#cuatro{width: 100%;   margin-top: 80px;   text-align: center; scroll-snap-align: start;}
+	#cinco{width: 100%;  margin-top: 80px;  text-align: center; scroll-snap-align: start;}
+
+body {font-family: 'lato', sans-serif;
+	background-color: #FFFBF6;
+	margin: 0px;
+	}
+
+main {
+  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  height: 100%;
+}
+
+
+header{
+    height: 120px;
+    background-image: url("img/frame.svg");
+    background-repeat: repeat;
+    background-position: center;
+	}
+
+#svg1 {width: 320px;
+	position: absolute;
+	margin-left: 10px;
+	}
+
+ul.lista1 {display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: right;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 97%;
+    height: 70px;  
+    position: absolute;
+    margin-top: 10px;
+	}
+
+.lista1 li{
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50px;
+	}
+
+.lista1 li:hover{
+    margin-right: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    }
+
+ .lista1 li:nth-child(5) {
+ 	background: #04A867;
+ 	height: 70px;
+	}
+
+ .lista1 li:hover:nth-child(5) {
+  	background: #009057;
+  	width: 150px;
+  	height: 75px;
+  	padding-top: 5px;
+	}
+
+.lista1 li a{display: inline-block;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 50px;
+	}
+
+.circulo{
+  height: 70px;
+  width: 70px;
+  background-color: #FF9174;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.titulo1 {margin: 20px;
+	 display: flex;
+	  justify-content: center;
+    }
+
+.titulo {
+	width: 400px;
+    text-align: left;
+    }
+
+.titulo h1{
+	font-size: 1.5em;
+	font-family: poppins, sans-serif;
+	margin-bottom: -10px;
+    }
+
+.contenedortarjetas {width: 300px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    margin: 5px;
+
+    }
+
+.tarjetas {width: 275px;
+    height: 485px;
+    background-color: #FF9174;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+.tarjetas1 {width: 275px;
+    height: 485px;
+    background-color: #5ADAEC;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 8px;
+    flex-wrap: wrap;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+
+.tarjetas2 {width: 275px;
+    height: 485px;
+    background-color: #FD95D4;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 8px;
+    flex-wrap: wrap;
+   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+.tarjetas3 {width: 275px;
+    height: 485px;
+    background-color: #FFEC8A;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+.tarjetas4 {width: 275px;
+    height: 485px;
+    background-color: #95AFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+.imagentarjetas {width: 250px;
+    height: 350px;
+    display: flex;
+    margin-bottom: 12px;
+    flex-direction: column;
+    margin-top: 12px;
+    }
+
+.textotarjetas {width: 250px;
+    height: 100px;
+    background-color: white;
+    }
+
+.textotarjetas p{color: black;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+    }
+
+.boton{ 
+        background-color: #FF9174;
+        width: 135px;
+        border-radius: 50px;
+        padding: 5px 30px;
+        display: flex;
+    }
+
+ .boton2{ 
+        background-color: #5ADAEC;
+        width: 135px;
+        border-radius: 50px;
+        padding: 5px 30px;
+        display: flex;
+    }
+
+ .boton3{ 
+        background-color: #FD95D4;
+        width: 135px;
+        border-radius: 50px;
+        padding: 5px 30px;
+        display: flex;
+    }
+
+  .boton4{ 
+        background-color: #FFEC8A;
+        width: 135px;
+        border-radius: 50px;
+        padding: 5px 30px;
+        display: flex;
+    }
+
+  .boton5{ 
+        background-color: #95AFFF;
+        width: 135px;
+        border-radius: 50px;
+        padding: 5px 30px;
+        display: flex;
+    }
+
+label.container{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.containerx[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5em;
+    accent-color: blue;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    }
+
+input.containerx[type="checkbox"]: after {
+    width: 50px;
+    height: 30px;
+    border-radius: 0.5em;
+    accent-color: blue;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    background-color: darkred;
+    }
+
+.contenedor3tarjetas {display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+    justify-content: center;}
+
+
+.abajo {margin: -20px;}
+
+
+.abajo h3{color: black;
+	}
+
+.abajo h3:hover{color: blue;
+	}
+
+a{text-decoration: none; font-family: poppins;  }
+
+.plantilla {display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	justify-content: center;
+    }
+
+
+
