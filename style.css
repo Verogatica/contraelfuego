@@ -5,8 +5,8 @@ html {scroll-behavior: smooth;
 	
     }
 
-	#uno{width: 100%; height: 100%;  margin: 0px;text-align: center; scroll-snap-align: start; }
-	#dos{width: 100%;   margin-top: 80px; text-align: center; scroll-snap-align: start;}
+	#uno{width: 100%; margin-top: 80px; height: 100%;  margin: 0px;text-align: center; scroll-snap-align: start; }
+	#dos{width: 100%;   margin-top: 40px; text-align: center; scroll-snap-align: start;}
 	#tres{width: 100%;	 margin-top: 80px;  text-align: center; scroll-snap-align: start;}
 	#cuatro{width: 100%;   margin-top: 80px;   text-align: center; scroll-snap-align: start;}
 	#cinco{width: 100%;  margin-top: 80px;  text-align: center; scroll-snap-align: start;}
@@ -28,13 +28,13 @@ section {
 
 
 header{
-    height: 120px;
+    height: 140px;
     background-image: url("img/frame.svg");
     background-repeat: repeat;
     background-position: center;
 	}
 
-#svg1 {width: 320px;
+#svg1 {width: 250px;
 	position: absolute;
 	margin-left: 10px;
 	}
@@ -48,7 +48,7 @@ ul.lista1 {display: flex;
     width: 97%;
     height: 70px;  
     position: absolute;
-    margin-top: 10px;
+    margin-top: 18px;
 	}
 
 .lista1 li{
@@ -93,7 +93,7 @@ ul.lista1 {display: flex;
   margin: 25px;
 }
 
-.titulo1 {margin: 20px;
+.titulo1 {margin: 40px;
 	 display: flex;
 	  justify-content: center;
     }
@@ -196,7 +196,6 @@ ul.lista1 {display: flex;
 
 .textotarjetas {width: 250px;
     height: 100px;
-    background-color: white;
     }
 
 .textotarjetas p{color: black;
@@ -294,9 +293,41 @@ a{text-decoration: none; font-family: poppins;  }
 
 .plantilla {display: flex;
 	flex-wrap: wrap;
-	margin-top: 100px;
+	margin-top: 50px;
 	justify-content: center;
+    border-width: 2;
     }
 
 
+.final {width: 500px;
+text-align: center;
+margin: auto;
+padding-top: 60px;}
 
+.botondet{background-color: #04A867;
+        width: 200px;
+        border-radius: 50px;
+        padding: 15px 35px;
+        height: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 150px;
+       }
+
+.botondet a{color: white;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.botondet:hover{background-color: #04A867;
+        width: 210px;
+        border-radius: 50px;
+        padding: 18px 35px;
+        height: 32px;
+        text-align: center;
+        font-size: 1.1em;
+       }
+
+footer {height: 200px;}
